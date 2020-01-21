@@ -1,16 +1,32 @@
+body {
+    background-image: url("background2.png");
+}
+
 .navbar {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
     
 }
+
+ul > li:not(:last-child) {float:right; border-right: 1px solid rgb(201, 43, 43);
+}
+
 
 footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color:  #86b3d3;
     text-align: center;
     color: whitesmoke;
+    clear: both;
 }
 
 #navbarNav {
     color: whitesmoke;
+    float: left;
+}
+
+#picOfMe {
+    width: 250px;
+    height: 250px;
     float: left;
 }
