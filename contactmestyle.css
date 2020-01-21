@@ -10,41 +10,30 @@ body {
     
 }
 
-ul > li:not(:last-child) {
+.navbar-nav > li:not(:last-child) {
     float:right; 
     border-right: 1px solid rgb(201, 43, 43);
 }
-
 
 #navbarNav {
     color: whitesmoke;
     float: left;
 }
 
-#picOfMe {
-    width: 250px;
-    height: 250px;
-    float: left;
-   
-}
+
 
 .wrapper {
     margin-top: 20px;
-    background-color: ivory;
+    background-color: cornsilk;
     padding: 40px;
-    margin: 50px;
+    margin: 70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: fit-content;
-    width: fit-content;
+   margin-left: 100px;
+   margin-right: 100px;
+   line-height: 40px;
+    
 }
 
-.bio {
-   color: rgb(27, 25, 25);
-   background-color: cornsilk;
-   margin: 50px; 
-   padding: 60px;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
 
 .footer {
