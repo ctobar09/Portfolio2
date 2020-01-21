@@ -1,5 +1,5 @@
 body {
-    background-image: url("background2.png");
+    background-image: url("background.png");
 }
 
 .navbar {
@@ -8,16 +8,13 @@ body {
     
 }
 
-ul > li:not(:last-child) {float:right; border-right: 1px solid rgb(201, 43, 43);
+ul > li:not(:last-child) {
+    float:right; 
+    border-right: 1px solid rgb(201, 43, 43);
 }
 
-
-footer {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color:  #86b3d3;
-    text-align: center;
-    color: whitesmoke;
-    clear: both;
+.a:hover{
+    color: white;
 }
 
 #navbarNav {
@@ -29,4 +26,36 @@ footer {
     width: 250px;
     height: 250px;
     float: left;
+   
+}
+
+.wrapper {
+    margin-top: 20px;
+    background-color: ivory;
+    padding: 40px;
+    margin: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: fit-content;
+    width: fit-content;
+}
+
+.bio {
+   color: rgb(27, 25, 25);
+   background-color: cornsilk;
+   margin: 50px; 
+   padding: 60px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  #86b3d3;
+    text-align: center;
+    color: whitesmoke;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
 }
