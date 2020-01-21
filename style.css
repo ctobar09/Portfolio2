@@ -1,0 +1,16 @@
+.navbar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  #86b3d3;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#navbarNav {
+    color: whitesmoke;
+    float: left;
+}
