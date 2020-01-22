@@ -1,0 +1,64 @@
+body {
+    background-image: url("background.png");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.navbar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    
+}
+
+ul > li:not(:last-child) {
+    float:right; 
+    border-right: 1px solid rgb(201, 43, 43);
+}
+
+
+#navbarNav {
+    color: whitesmoke;
+    float: left;
+}
+
+#picOfMe {
+    width: 250px;
+    height: 250px;
+    float: left;
+   
+}
+
+
+.wrapper {
+    margin-top: 20px;
+    background-color: cornsilk;
+    padding: 40px;
+    margin: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 100px;
+   margin-right: 100px;
+   line-height: 40px;
+    
+}
+
+
+.bio {
+   color: rgb(27, 25, 25);
+   background-color: cornsilk;
+   margin: 50px; 
+   padding: 60px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  #86b3d3;
+    text-align: center;
+    color: whitesmoke;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
